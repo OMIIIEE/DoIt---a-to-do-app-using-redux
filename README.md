@@ -76,8 +76,8 @@ Or if you're using Yarn: yarn run dev
 
 Navigate to http://localhost:5173 in your web browser to see the application in action.
 
-4. Login
-   username : user
+4. Login : = 
+   username : user , 
    password : password
 
 Technologies Used
