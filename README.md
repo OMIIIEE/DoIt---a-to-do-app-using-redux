@@ -36,8 +36,11 @@ DoIt is a responsive task management application designed to help users manage t
 
 ## Screenshots
 
-
-
+![DoIt Login Page](./src/assets/ss3-doit.jpg)
+![DoIt To-Do App](./src/assets/ss1-doit.jpg)
+![DoIt Task add Form ](./src/assets/ss2-doit.jpg)
+![DoIt Responsive App](./src/assets/ss4-doit.jpg)
+ 
 ## Getting Started
 
 Follow these instructions to set up and run the project locally.
