@@ -36,10 +36,11 @@ DoIt is a responsive task management application designed to help users manage t
 
 ## Screenshots
 
-![DoIt Login Page](./src/assets/ss3-doit.jpg)
-![DoIt To-Do App](./src/assets/ss1-doit.jpg)
-![DoIt Task add Form ](./src/assets/ss2-doit.jpg)
-![DoIt Responsive App](./src/assets/ss4-doit.jpg)
+![image](https://github.com/user-attachments/assets/678a8197-f40e-4d52-8092-1e575a557986)
+![image](https://github.com/user-attachments/assets/e31b423a-9b1b-4222-8da4-9b6b5eb40041)
+![image](https://github.com/user-attachments/assets/51d856ea-a095-4a62-a80b-f1c8c1b6facb)
+![image](https://github.com/user-attachments/assets/bc7dbd5d-5322-4f14-bd47-1b89ce00b3dd)
+
  
 ## Getting Started
 
@@ -75,6 +76,9 @@ Or if you're using Yarn: yarn run dev
 
 Navigate to http://localhost:5173 in your web browser to see the application in action.
 
+4. Login
+   username : user
+   password : password
 
 Technologies Used
 React + vite: JavaScript library for building user interfaces.
