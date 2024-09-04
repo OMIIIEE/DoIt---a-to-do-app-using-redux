@@ -1,0 +1,159 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #76cef4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .menu-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1rem;
+    position: relative;
+    margin-left: 10px;
+    background-color: #007bff;
+  }
+  
+  .btn-profile {
+    color: #1f8ff0;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    
+  }
+  
+  .btn-logout {
+    background-color: #08a8d9;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #f41414;
+    color: #0a0000;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  
+  .btn:hover .tooltip {
+    display: block;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navbar-left {
+      order: 1;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-right {
+      order: 2;
+      margin-bottom: 10px;
+    }
+  
+    .menu-icon {
+      display: block;
+      color: #333;
+    }
+  
+    .menu-content {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      margin-top: 10px;
+    }
+  
+    .menu-content.show {
+      display: flex;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 10px;
+      justify-content: flex-start;
+    }
+  
+    .btn-profile,
+    .btn-logout {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-left h1 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+    }
+  
+    .btn-profile {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
